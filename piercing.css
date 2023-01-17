@@ -1,0 +1,39 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    
+th,td {
+    padding:5px;
+    text-align: left;
+    }
+
+ol li {
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+    float: left;
+}
+
+body {
+    border-style: ridge;
+    margin: 50px;
+
+}
+
+p, h2, h3 {
+    margin: 20px;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+img {
+    margin-left: 25px;
+    margin-right: 25px;
+}
