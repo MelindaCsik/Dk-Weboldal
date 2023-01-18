@@ -9,16 +9,27 @@ th,td {
     }
 
 ol li {
+    border: 2px solid #0000CC;
+    background-color: #0000CC; 
+    color: white;
     list-style-type: none;
     display: block;
     padding: 10px;
     float: left;
 }
 
+ol li:hover {
+    background-color: #CCCCFF;
+    color: black;
+    opacity: 0.7;
+    border: 2px solid #CCCCFF;
+}
+
 body {
     border-style: ridge;
+    border-color: #6666FF;
     margin: 50px;
-
+    background-color: #9999FF;
 }
 
 p, h2, h3 {
@@ -26,7 +37,13 @@ p, h2, h3 {
 }
 
 ul {
-    margin-left: 50px;
+    margin-left: 100px;
+}
+
+.valami {
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-bottom: -15px;
 }
 
 table {
@@ -34,6 +51,15 @@ table {
 }
 
 img {
+    margin-top: 30px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 100px;
+}
+
+.link {
+    border: 2px solid #CCCCFF;
+    background-color: #CCCCFF; 
+    list-style-type: none;
+    float: right;
+    padding: 10px;
 }
