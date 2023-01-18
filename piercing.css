@@ -59,7 +59,6 @@ img {
 .link {
     border: 2px solid #CCCCFF;
     background-color: #CCCCFF; 
-    list-style-type: none;
     float: right;
     padding: 10px;
 }
